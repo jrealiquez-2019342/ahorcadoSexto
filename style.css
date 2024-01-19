@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    height: 500px;
+    background-image: "./images/logoKinal.png";
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 10rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
