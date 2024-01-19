@@ -1,8 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const canva = document.getElementById("canva");
-    canva.width = window.innerWidth;
-    canva.height = window.innerHeight;
+document.addEventListener('DOMContentLoaded', function restar() {
+    const canva = document.getElementById("myCanvas");
     const contexto = canva.getContext('2d');
+    
     var palabras = ["COMPUTADORA", "CPU", "MOUSE"];
     var numeroAleatorio = Math.floor(Math.random*palabras.length)
 
@@ -10,5 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 function cargarJuego(){
-    window.alert("Hola mundo");
+    window.alert("Juego cargado");
+
+}
+
+function obtenerPalabra() {
+    
+}
+
+function cargarBotones() {
+    
 }
